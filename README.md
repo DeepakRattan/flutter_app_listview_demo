@@ -1,4 +1,4 @@
-# flutterapplistviewdemo
+# ListView with ListTile
 
 1. This project demonstrates the use of ListView with ListTile.
 
