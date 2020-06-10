@@ -49,6 +49,8 @@ class _TaskListTileState extends State<TaskListTile> {
         widget.title,
         style: TextStyle(
           fontSize: 20.0,
+          decoration:
+              isChecked ? TextDecoration.lineThrough : TextDecoration.none,
         ),
       ),
       trailing: Checkbox(
